@@ -121,12 +121,12 @@ $builder->setPackageAttributes(array(
     'readme' => file_get_contents($sources['docs'] . 'readme.txt'),
     'js' => file_get_contents($sources['source_core'] . '/main.js'),
     'resources' => include $sources['data'].'transport.resource.php',
-	  'chunks'    => include $sources['data'].'transport.chunks.php',
-	  'templates' => include $sources['data'].'transport.template.php',
-	  'settings'  => include $sources['data'].'transport.setting.php',
-	  'packages'  => include $sources['data'].'transport.packages.php',
-	  'plugins'   => include $sources['data'].'transport.plugins.php',
-	  'dir'       => $sources['source_assets'].'/',
+	'chunks'    => include $sources['data'].'transport.chunks.php',
+	'templates' => include $sources['data'].'transport.template.php',
+	'settings'  => include $sources['data'].'transport.setting.php',
+	'packages'  => include $sources['data'].'transport.packages.php',
+	'plugins'   => include $sources['data'].'transport.plugins.php',
+	'dir'       => $sources['source_assets'].'/',
     'setup-options' => array(
         'source' => $sources['build'].'setup.options.php',
     ),
@@ -137,6 +137,7 @@ $modx->log(modX::LOG_LEVEL_INFO,'Added package attributes and setup options.');
 $modx->log(modX::LOG_LEVEL_INFO,'Packing up transport package zip...');
 $builder->pack();
 $modx->log(modX::LOG_LEVEL_INFO,"\n<br />Package Built.<br />");
+
 
 $mtime= microtime();
 $mtime= explode(" ", $mtime);

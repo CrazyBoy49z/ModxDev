@@ -2,6 +2,11 @@ Changelog for ModxDevs.
 
 1.0.0 beta
 ==============
+Исправлено
+- транслитератор для алиас - fix_russian
+
+1.0.0 beta
+==============
 Добавлено
 - транслитератор для алиас - fix_russian
 - Провайдери modstore.ru и finiv.in.ua

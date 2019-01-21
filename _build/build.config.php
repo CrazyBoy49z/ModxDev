@@ -45,7 +45,7 @@ define('BUILD_PLUGIN_STATIC', true);
 //define('BUILD_POLICY_TEMPLATE_UPDATE', true);
 //define('BUILD_PERMISSION_UPDATE', true);
 $BUILD_RESOLVERS = array(
-	'providers',
+  'providers',
 	'remove',
 	'rename',
 	'create_folder',
@@ -53,9 +53,8 @@ $BUILD_RESOLVERS = array(
 	'resource',
 	'chunks',
 	'templates',
-    'setting',
+  'setting',
 	'setup',
-
 );
 
 /* define sources */
