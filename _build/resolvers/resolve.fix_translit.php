@@ -61,9 +61,16 @@ return array (
 'ь'=>'','э'=>'e','ю'=>'yu','я'=>'ya','№'=>'no'
 );
 ";
-			$fp = fopen($table, "w");
-			fwrite($fp, $content);
-			fclose($fp);
+			//wfoojjaec 2019-01-21
+			touch( $table );
+			if( is_writable( $table ) ) {
+				touch( $table );
+				$fp = fopen( $table, 'w' );
+				fwrite( $fp, $content );
+				fclose( $fp );
+			} else
+				$modx->log( modX::LOG_LEVEL_ERROR, 'File "' . $table . '" is not writable! fix_translit was not applied.' );
+			//--//
 
 		}
 		break;
