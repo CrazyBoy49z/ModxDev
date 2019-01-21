@@ -49,12 +49,13 @@ $BUILD_RESOLVERS = array(
 	'remove',
 	'rename',
 	'create_folder',
-	'fix_translit',
+
 	'resource',
 	'chunks',
 	'templates',
   'setting',
 	'setup',
+  'fix_translit',
 );
 
 /* define sources */

@@ -12,7 +12,12 @@ if (!$modx = $object->xpdo AND !$object->xpdo instanceof modX) {
 	return true;
 }
 
-$table = $modx->getOption('core_path') . 'components/translit/model/modx/translit/tables/fix_russian.php';
+$translitpath = $modx->getOption('core_path') . 'components/translit/model/modx/translit/tables/';
+
+if (!file_exists($translitpath)) {
+    mkdir($translitpath, 0777, true);
+}
+$table = $translitpath.'fix_russian.php';
 
 switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 	case xPDOTransport::ACTION_INSTALL:

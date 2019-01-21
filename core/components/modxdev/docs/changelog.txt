@@ -1,6 +1,6 @@
 Changelog for ModxDevs.
 
-1.0.0 beta
+1.0.1 beta
 ==============
 Исправлено
 - транслитератор для алиас - resolve.fix_russian (wfoojjaec)
