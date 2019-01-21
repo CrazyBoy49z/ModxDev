@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Yuriy
- * Date: 02.07.2018
- * Time: 0:57
+ * @author CrazyBoy49z.
+ * @package ModxDev
+ * @date: 02.07.2018
+ * @time: 0:57
  */
 
 $_lang['modxdev'] = 'ModxDev';

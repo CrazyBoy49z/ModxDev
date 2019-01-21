@@ -3,7 +3,7 @@
 if (!$modx = $object->xpdo AND !$object->xpdo instanceof modX) {
 	return true;
 }
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 
 /*---------------------------------*/
 

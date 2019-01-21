@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: burgen
- * Date: 09.01.2016
- * Time: 13:50
+ * @author burgen.
+ * @package ModxDev 
+ * @rewrite CrazyBoy49z
+ * @date 09.01.2016
+ * @time 13:50
  */
 
 $parent_id = 0;

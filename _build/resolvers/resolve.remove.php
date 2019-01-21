@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Yuriy
- * Date: 17.06.2018
- * Time: 2:25
+ * @author CrazyBoy49z.
+ * @package ModxDev
+ * @date 17.06.2018
+ * @time 2:25
  */
 
 if (!$modx = $object->xpdo AND !$object->xpdo instanceof modX) {

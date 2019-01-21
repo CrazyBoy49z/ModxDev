@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Yuriy
- * Date: 17.06.2018
- * Time: 3:24
+ * @author CrazyBoy49z.
+ * @package ModxDev
+ * @date 17.06.2018
+ * @time 3:24
  */
 
 /** @var $modx modX */

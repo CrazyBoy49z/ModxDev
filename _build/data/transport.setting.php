@@ -1,10 +1,6 @@
 <?php
 error_reporting(E_ALL);
 $tpm = array(
-//	'emailsender' =>  array(
-//	),
-//	'site_name' =>  array(
-//	),
     'publish_default' =>array(
 		'value'     => '1',
 	),
