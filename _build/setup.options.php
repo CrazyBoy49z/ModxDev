@@ -129,7 +129,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 			$package_container = array(
 				'system' => array(
 					'name' => 'Утилиты',
-					'page' => 'pdoTools,translit,yTranslit,Babel,SmushIt,Collections,VersionX,PageLocker,Tickets,siteStatistics,ajaxsnippet'
+					'page' => 'pdoTools,translit,yTranslit,Babel,SmushIt,Collections,VersionX,PageLocker,Tickets,siteStatistics,ajaxsnippet,csrfhelper'
 				),
 				'admin' => array(
 					'name' => 'Администрирование',
