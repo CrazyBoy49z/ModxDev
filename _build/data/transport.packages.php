@@ -450,6 +450,14 @@ $packages_in = array(
 		'link'      => 'https://modx.com/extras/package/imageplustvinput',
 
 	),
+	'csrfhelper' => array(
+		'pagetitle' => 'CSRF Helper',
+		'checked'   => 1,
+		'desc'      => 'CSRF Helper is a tool for MODX to secure forms against cross-site request forgery (CSRF) vulnerabilities.',
+		'versions'  => '',
+		'link'      => 'https://modx.com/extras/package/csrfhelper',
+
+	),
 
 );
 

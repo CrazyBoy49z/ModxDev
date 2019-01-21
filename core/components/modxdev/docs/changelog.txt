@@ -4,6 +4,8 @@ Changelog for ModxDevs.
 ==============
 Исправлено
 - транслитератор для алиас - resolve.fix_russian (wfoojjaec)
+Добавление приложений
+- csrfhelper
 
 1.0.0 beta
 ==============
