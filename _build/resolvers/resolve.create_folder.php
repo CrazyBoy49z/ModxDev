@@ -27,7 +27,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 
 		}
 
-		$fold = MODX_CORE_PATH . 'DevFolder';
+		$fold = MODX_CORE_PATH . 'elements';
 		if (!mkdir($fold, 0777, true)) {
 			$modx->log(modX::LOG_LEVEL_ERROR, 'Error create Folder ' . $fold);
 		}
