@@ -14,7 +14,7 @@ $params = array(
         "desc" => "prop_file.basePath_desc",
         "type" => "textfield",
         "options" => Array(),
-        "value" => "core/DevFolder/",
+        "value" => "core/elements/",
         "lexicon" => "core:source",
     ),
     "baseUrl" => Array
@@ -23,7 +23,7 @@ $params = array(
         "desc" => "prop_file.baseUrl_desc",
         "type" => "textfield",
         "options" => Array(),
-        "value" => "core/DevFolder/",
+        "value" => "core/elements/",
         "lexicon" => "core:source",
     )
 );
